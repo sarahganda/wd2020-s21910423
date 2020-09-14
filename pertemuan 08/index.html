@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-widht,initial-scale=1.0">
+        <title> HTML form></title>
+    </head>
+    <body>
+        <form action="/path"> 
+            <fieldset>
+                <legend>formulir calon pegawai</legend>
+                <label for="name">Nama: </label>
+                <input type="text" name="name" /> 
+                <br>
+                <br>
+                <label for="address">Alamat: </label>
+                <input type="text" name="address" />
+                <br>
+                <br>
+                <label for="password">Password: </label>
+                <input type="text" name="password" />
+                <br>
+                <br>
+                <label for="jenis kelamin:"> Jenis kelamin:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"> female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">other</label>
+                <br>
+                <br>
+                <label for="bahasa pemograman yang dikuasai">
+                    bahasa pemograman yang dikuasai:
+                </label>
+                <input type="checkbox" name="Web">
+                <label for="Web"> WEB</label>
+                <input type="checkbox" name="mobile">
+                <label for="mobile">MOBILE</label>
+                <input type="checkbox" name="desktop">
+                <label for="desktop">DESKTOP</label>
+                <br>
+                <br>
+                <label for="kota asal">Kota Asal: </label>
+                <select>
+                    <option value="bandung"> Bandung</option>
+                    <option value="Jakarta"> Jakarta</option>
+                    <option value="manado"> Manado</option>
+                    <option value="Batam"> Batam</option>
+                    <option value="Surabaya"> Surabaya</option>
+                 </select>
+                 <br>
+                 <br>
+                 <label for="memilih"> Apa yang membuat kami harus memilih Anda?:</label>
+                 <br>
+                 <br>
+                 <textarea rows="10" cols="50" placeholder="tulis jawaban anda di sini...."></textarea>
+                 <br>
+                 <br>
+                 <button>Proces</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
