@@ -1,0 +1,35 @@
+
+
+div .error{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 150px;
+    border: 15px solid red;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 15px;
+    
+    
+}
+div .success{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 150px;
+    border: 15px solid red;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 1px;
+    margin-left: 205px;
+    font-size: 150px;
+}
+div .mantul{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 150px;
+    border: 15px solid red;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 1px;
+    margin-left: 395px;
+    font-size: 150px;
+}
